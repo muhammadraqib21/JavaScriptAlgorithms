@@ -1,7 +1,7 @@
 let letters = [];
 let word = "racecar"
 let reverseWord = "";
-
+// First in last out 
 for (let i = 0; i < word.length; i++) {
     // push is always in front of array
    letters.push(word[i])
